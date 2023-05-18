@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../../public/vite.svg'
+import logo from '/vite.svg'
 
 const Navbar = () => {
   const [isVisible, setIsvible] = useState(false)
@@ -16,19 +16,19 @@ const Navbar = () => {
 							</a>
 						</div>
 						<div className="hidden md:flex items-center space-x-1">
-							<a href="" className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
-							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</a>
-							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
-							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact Us</a>
+							<a href="" className="py-4 px-2 text-sky-500 border-b-4 border-sky-500 font-semibold ">Home</a>
+							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-sky-500 transition duration-300">Services</a>
+							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-sky-500 transition duration-300">About</a>
+							<a href="" className="py-4 px-2 text-gray-500 font-semibold hover:text-sky-500 transition duration-300">Contact Us</a>
 						</div>
 					</div>
 					<div className="hidden md:flex items-center space-x-3 ">
-						<a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</a>
-						<a href="" className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</a>
+						<a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-sky-500 hover:text-white transition duration-300">Log In</a>
+						<a href="" className="py-2 px-2 font-medium text-white bg-sky-500 rounded hover:bg-sky-400 transition duration-300">Sign Up</a>
 					</div>
 					<div className="md:hidden flex items-center">
 						<button onClick={() => setIsvible(!isVisible)} className="outline-none mobile-menu-button">
-						<svg className=" w-6 h-6 text-gray-500 hover:text-green-500 "
+						<svg className=" w-6 h-6 text-gray-500 hover:text-sky-500 "
 							x-show="!showMenu"
 							fill="none"
 							stroke-linecap="round"
@@ -45,10 +45,10 @@ const Navbar = () => {
 			</div>
 			<div className={`md:hidden ${!isVisible && 'hidden'}`}>
 				<ul className="">
-					<li className="active"><a href="index.html" className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
-					<li><a href="#services" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
-					<li><a href="#about" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
-					<li><a href="#contact" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+					<li className="active"><a href="index.html" className="block text-sm px-2 py-4 text-white bg-sky-500 font-semibold">Home</a></li>
+					<li><a href="#services" className="block text-sm px-2 py-4 hover:bg-sky-500 transition duration-300">Services</a></li>
+					<li><a href="#about" className="block text-sm px-2 py-4 hover:bg-sky-500 transition duration-300">About</a></li>
+					<li><a href="#contact" className="block text-sm px-2 py-4 hover:bg-sky-500 transition duration-300">Contact Us</a></li>
 				</ul>
 			</div>
 		</nav>
