@@ -5,7 +5,7 @@ import logo from '/vite.svg'
 const Footer = () => {
   return (
     <div className='footer p-6 grid md:grid-cols-2 px-4 md:px-44'>
-      <div className="footer__left flex flex-col">
+      <div className="footer__left flex flex-col mb-6 md:mb-0">
         <div className="footer__company mb-6 flex">
           <img src={logo} alt="logo" className='mr-2' />
           <p className='text-2xl text-white'>COMPANY</p>
@@ -24,8 +24,8 @@ const Footer = () => {
 
       <div className="footer__right">
         <p className='p-4 py-2 font-semibold text-lg text-white'>Who We Are</p>
-        <p className='p-4 py-2 font-semibold text-lg text-white'>Who We Are</p>
-        <p className='p-4 py-2 font-semibold text-lg text-white'>Who We Are</p>
+        <p className='p-4 py-2 font-semibold text-lg text-white'>Our Values</p>
+        <p className='p-4 py-2 font-semibold text-lg text-white'>The Perks</p>
       </div>
     </div>
   )
