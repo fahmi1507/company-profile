@@ -10,15 +10,15 @@ const Footer = () => {
           <img src={logo} alt="logo" className='mr-2' />
           <p className='text-2xl text-white'>COMPANY</p>
         </div>
-        <div className="select__branch md:w-80 bg-white h-72 p-4">
-          <select name="" id="" className='mb-12'>
+        <div className="select__branch md:w-80 bg-white h-68 p-4">
+          <select name="" id="" className='mb-8'>
             <option value="1">Lorem ipsum dolor sit.</option>
             <option value="1">Lorem ipsum dolor sit.</option>
             <option value="1">Lorem ipsum dolor sit.</option>
             <option value="1">Lorem ipsum dolor sit.</option>
           </select>
 
-          <p className='title-color'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quidem accusamus iusto reprehenderit earum consequuntur similique dolores aspernatur natus enim.</p>
+          <p className='title-color'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quidem accusamus iusto reprehenderit earumm. iusto reprehenderit earumm iusto reprehen</p>
         </div>
       </div>
 
